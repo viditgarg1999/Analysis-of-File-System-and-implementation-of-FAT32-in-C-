@@ -1,0 +1,22 @@
+# Analysis-of-File-System-and-implementation-of-FAT32-in-C++
+Implementation of FAT32 File System in C++, and a project report on analysis of different File Systems.
+
+
+In this project, I have implemented FAT32 File System in C++. You just need to copy the code written in FileSystem.cpp file 
+in any of your IDE(Code Blocks, Geany ,Dev C++ etc). Don't choose Turbo C++ because the program is not compatible with it and it may show Error.
+
+In my File System implementation there are 9 different modules,
+ 
+ 1.Create a File : In this module, the user need to Enter the Filename, Filesize and FileType.As we are implementing FAT32 so the file size should be 
+ less than 4GB(4096 MB) otherwise it will display an error message "Can not handle file of size greater then 4GB".Two files with same name
+ can exist in the FileSystem but they should have different FileTypes otherwise it will display an error message.
+ 
+ 2.Delete a File: In this module, the user need to Enter the filename and if file exists with the same it it will delete it and it more than 
+ one file exists with the same name then it will ask for filetype for more clerance and then it will delete it.
+ 
+ 3.Defragmentation: In this module, The FileSystem is going to traverse the Starting Address and File Size of all the files and remove all the 
+ unallocated memory(which may occure because of File Deletion). Thus it helps in making the maximum use of the available memory.
+ 
+ 4. Display the Applicaiton Files: It will display all the available files in the System.
+ 
+ 5. System Files Creation: In this module, the user can create System Files which cannot 

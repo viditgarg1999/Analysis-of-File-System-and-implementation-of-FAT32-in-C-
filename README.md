@@ -13,34 +13,34 @@ In my File System implementation there are 9 different modules,
 
 ![](/images/Capture2.JPG)
  
- 2.Delete a File: In this module, the user need to Enter the filename and if file exists with the same it it will delete it and it more than one file exists with the same name then it will ask for filetype for more clerance and then it will delete it.
+ **2.Delete a File:** In this module, the user need to Enter the filename and if file exists with the same it it will delete it and it more than one file exists with the same name then it will ask for filetype for more clerance and then it will delete it.
  
  ![](/images/Capture3.JPG)
  
- 3.Defragmentation: In this module, The FileSystem is going to traverse the Starting Address and File Size of all the files and remove all the unallocated memory(which may occure because of File Deletion). Thus it helps in making the maximum use of the available memory.
+ **3.Defragmentation:** In this module, The FileSystem is going to traverse the Starting Address and File Size of all the files and remove all the unallocated memory(which may occure because of File Deletion). Thus it helps in making the maximum use of the available memory.
  
  ![](/images/Capture4.JPG)
  
- 4.Display the Applicaiton Files: It will display all the available files in the System.
+ **4.Display the Applicaiton Files:** It will display all the available files in the System.
  
  ![](/images/Capture5.JPG)
  
- 5.System Files Creation: In this module, the user can create System Files which cannot be deleted and in order to see these files the user need to Enter a password.
+ **5.System Files Creation:** In this module, the user can create System Files which cannot be deleted and in order to see these files the user need to Enter a password.
  
  ![](/images/Capture6.JPG)
  
- 6.Display System Files: First the user have to Enter the choice [y/n] and then it will ask for password (here the password is "admin"), Once the password got verified it will diaplay all the System Files.
+ **6.Display System Files:** First the user have to Enter the choice [y/n] and then it will ask for password (here the password is "admin"), Once the password got verified it will diaplay all the System Files.
  
  ![](/images/Capture7.JPG)
  
- 7.Search For a file: The client can search for an Application File through this module.
+ **7.Search For a file:** The client can search for an Application File through this module.
  
  ![](/images/Capture8.JPG)
  
- 8.Delete of Files Older than 1 Month: In this module the System will delete all the files older than 1 month and if incase no such File exists then it will display a message "All files are New".
+ **8.Delete of Files Older than 1 Month:** In this module the System will delete all the files older than 1 month and if incase no such File exists then it will display a message "All files are New".
 
 ![](/images/Capture9.JPG)
 
- 9.Exit: With this module the user can Exit through the System loop.
+ **9.Exit:** With this module the user can Exit through the System loop.
 
 ![](/images/Capture10.JPG)

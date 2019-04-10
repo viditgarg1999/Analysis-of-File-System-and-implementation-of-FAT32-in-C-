@@ -8,7 +8,7 @@ in any of your IDE(Code Blocks, Geany ,Dev C++ etc). Don't choose Turbo C++ beca
 In my File System implementation there are 9 different modules,
 
 ![](/images/Capture1.JPG)
- 
+
   **1.Create a File :** In this module, the user need to Enter the Filename, Filesize and FileType.As we are implementing FAT32 so the file size should be less than 4GB(4096 MB) otherwise it will display an error message "Can not handle file of size greater then 4GB".Two files with same name can exist in the FileSystem but they should have different FileTypes otherwise it will display an error message.
 
 ![](/images/Capture2.JPG)

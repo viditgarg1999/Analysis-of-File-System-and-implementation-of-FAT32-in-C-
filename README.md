@@ -48,4 +48,4 @@ In my File System implementation there are 9 different modules,
 
 
 </br></br>
- **Licensed under the [MIT License](LICENSE).**
+ Licensed under the [MIT License](LICENSE).
